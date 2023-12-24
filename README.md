@@ -47,12 +47,12 @@
 ### 최종 목표 및 개발 내용과 범위 (주요 성능 목표 제시)
   1. API 정의서를 보유한 150종 이상의 소프트웨어 개발 및 운용 환경에서 보안 위협을 분석하는 시스템으로 발전하는 것이 최종 목표.
   2. Data-Flow 기반의 분석 방법론을 도입하여 자연어 변환성능 향상
-        - 정적 분석 시: PC에서의 JMP 계열 어셈블리 명령, 안드로이드의 DEX Invokation 추적
-        - 동적 분석 시: 인텔社의 PIN(Desktop) / jUnit(안드로이드)
+    - 정적 분석 시: PC에서의 JMP 계열 어셈블리 명령, 안드로이드의 DEX Invokation 추적
+    - 동적 분석 시: 인텔社의 PIN(Desktop) / jUnit(안드로이드)
   3. 악성코드 API 및 리소스 빈도를 활용한 추천 리소스 기능 제공
   4. 악성코드 분석에 쓰일 수 있는 후보 시스템과의 결합성 테스트 및 검증
-        - API 추천: PredictionIO, DeepDetect (설치형 머신러닝 플랫폼)
-        - 가상환경 분석: VirtualBox, QEMU, Cuckoo Sandbox, ...
+    - API 추천: PredictionIO, DeepDetect (설치형 머신러닝 플랫폼)
+    - 가상환경 분석: VirtualBox, QEMU, Cuckoo Sandbox, ...
   - 바이너리: Valgrid, BitBlaze, DynamoRIO, PinTool, Snowman, ...
   - 안드로이드: Androguard, DroidBox, APKTool, JAD, ...
   - 외부 서비스: VirusTotal, MetaScan, URLQuery, ...
